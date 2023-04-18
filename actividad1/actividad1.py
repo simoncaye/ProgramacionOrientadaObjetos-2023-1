@@ -29,7 +29,6 @@ class empleado():
         retencion = self.retencion
         ganado = horas*salario
         retenido = ganado*retencion
-        print(horas, retencion, salario)
         neto = ganado-retenido
         datos = {
             'Salario Total': ganado,
